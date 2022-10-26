@@ -1,0 +1,15 @@
+<?xml version="1.0" enconding="UTF-8"?>
+<!DOCTYPE listaventas SYSTEM  "Ejercicio4.xml">
+        <!DOCTYPE listaventas[
+
+        <!ELEMENT listaventas (venta+)>
+        <!ELEMENT venta (importe, comprador, vendedor, fecha?, codigofactura)>
+        <!ELEMENT importe (#PCDATA)>
+        <!ELEMENT comprador (#PCDATA)>
+        <!ELEMENT vendedor (#PCDATA)>
+        <!ELEMENT fecha (#PCDATA)>
+        <!ELEMENT codigofactura (#PCDATA)>
+
+        <!ATTLIST FECHA PCDATA #IMPLIED>
+
+        ]

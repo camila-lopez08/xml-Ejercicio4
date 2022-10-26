@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listaventas SYSTEM  "Ejercicio4.dtd">
+<listaventas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="Ejercicio4.xsd">
+    <venta>
+        <importe>0001</importe>
+        <comprador>Fernando Ochoa</comprador>
+        <vendedor>Camila Lopez</vendedor>
+        <fecha>2021-10-10</fecha>
+        <codigofactura>COD-600</codigofactura>
+    </venta>
+    <venta>
+        <importe>0002</importe>
+        <comprador>Juan Jose</comprador>
+        <vendedor>Santiago Perez</vendedor>
+        <fecha>2020-10-11</fecha>
+        <codigofactura>COD-601</codigofactura>
+    </venta>
+    <venta>
+        <importe>0003</importe>
+        <comprador>Juanita</comprador>
+        <vendedor>Sara Perez</vendedor>
+        <codigofactura>COD-604</codigofactura>
+    </venta>
+</listaventas>
